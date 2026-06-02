@@ -6,7 +6,7 @@ const poemData = [
     { text: "不识", py: "bù shí", zh: "不认识，不了解。", en: "did not know" },
     { text: "菱", py: "líng", zh: "菱角，一种生在池塘中的水生植物，果实有硬壳。", en: "water caltrops (ling角).", exam: true },
     { text: "者", py: "zhě", zh: "……的人。", en: "person," },
-    { text: "环境", punc: true },
+    { text: "，", punc: true },
     { text: "仕", py: "shì", zh: "做官，出任官职。", en: "served as an official", exam: true },
     { text: "于", py: "yú", zh: "在。", en: "in" },
     { text: "南方", py: "nán fāng", zh: "南方。", en: "the South." },
