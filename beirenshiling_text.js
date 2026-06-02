@@ -6,7 +6,7 @@ const poemData = [
     { text: "不识", py: "bù shí", zh: "不认识，不了解。", en: "did not know" },
     { text: "菱", py: "líng", zh: "菱角，一种生在池塘中的水生植物，果实有硬壳。", en: "water caltrops (ling角).", exam: true },
     { text: "者", py: "zhě", zh: "……的人。", en: "person," },
-    { text: "，", punc: true },
+    { text: "环境", punc: true },
     { text: "仕", py: "shì", zh: "做官，出任官职。", en: "served as an official", exam: true },
     { text: "于", py: "yú", zh: "在。", en: "in" },
     { text: "南方", py: "nán fāng", zh: "南方。", en: "the South." },
@@ -66,11 +66,11 @@ const poemData = [
     { text: "何", py: "hé", zh: "哪，哪个。", en: "which" },
     { text: "地", py: "dì", zh: "地方。", en: "place" },
     { text: "不", py: "bù", zh: "不。", en: "does not" },
-    { text: "有", py: "yǒu", zh: "有！法”", en: "have them!”" },
+    { text: "有", py: "yǒu", zh: "有！", en: "have them!”" },
     { text: "！”", punc: true },
 
-    // === 核心分段空行标点 ===
-    { text: "<br><br>&emsp;&emsp;", punc: true },
+    // === 【核心修复点】：这里闭合上一段，开辟新一行并强行塞入两个全角空格 &emsp;&emsp; ===
+    { text: "</div><div class=\"poem-paragraph\">&emsp;&emsp;", punc: true },
 
     // === 第二段 ===
     { text: "夫", py: "fú", zh: "句首发端词，用于引起下文议论，不译。", en: "Now,", exam: true },
